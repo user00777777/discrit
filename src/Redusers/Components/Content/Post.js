@@ -11,7 +11,7 @@ let Post = () => {
       <tr>
         <td>тельфер№51906</td>
         <td>
-          №52044 {"       "}
+          <i className="near"> №52044</i>
           <span className="w3"> №51915</span>
         </td>
         <td>тельф№51854</td>
@@ -19,7 +19,6 @@ let Post = () => {
       <tr>
         <td>тельфер№51927</td>
         <td className="w3alone">
-          {" "}
           <span className="w3">№51830</span>
         </td>
         <td>тельфер№51833</td>
@@ -27,14 +26,14 @@ let Post = () => {
       <tr>
         <td>тельфер№51832</td>
         <td>
-          №51922 <span className="w3"> №51924</span>
+          <i className="near"> №51922</i> <span className="w3"> №51924</span>
         </td>
         <td>тельфер№51770</td>
       </tr>
       <tr>
         <td>тельфер№51871</td>
         <td>
-          №51926 <span className="w3"> №51925</span>
+          <i className="near"> №51926</i> <span className="w3"> №51925</span>
         </td>
         <td>тельфер№51792</td>
       </tr>
@@ -48,7 +47,8 @@ let Post = () => {
       <tr>
         <td>тельфер№51872</td>
         <td>
-          №51892 <span className="w3"> №51891</span>
+          <i className="near"> №51892 </i>
+          <span className="w3"> №51891</span>
         </td>
         <td>тельфер№51834</td>
       </tr>
