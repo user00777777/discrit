@@ -1,10 +1,13 @@
 import "./Post.css";
 let Post = () => {
   return (
-    <div className="b">
-      <th> монорельс№51788</th>
-      <th>монорельс№51837</th>
-      <th>монорельс№51838</th>
+    <div className="wrapper">
+      <b>
+        {" "}
+        <th> монорельс№51788</th>
+        <th>монорельс№51837</th>
+        <th>монорельс№51838</th>
+      </b>
       <tr>
         <td>тельфер№51906</td>
         <td>

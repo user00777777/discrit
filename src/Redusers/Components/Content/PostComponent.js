@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import Post from "./Content/Post";
+import Post from "./Post";
 let mapStatetoProps = (state) => {
   return {
     post: state.post,

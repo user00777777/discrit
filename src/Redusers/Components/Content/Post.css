@@ -1,9 +1,9 @@
-.b{background: cornsilk;}
+.wrapper{background: rgb(235, 241, 239);}
 
 td{height: 60px;
     width:110px;
     border: 6px double;background: rgb(3, 3, 3);color: rgb(241, 239, 234);font-size: 14px;}
-    .w3{font-size: 14px;padding-left: 28px;}
+    .w3{font-size: 14px;padding-left: 18px;}
 	.w3alone{text-align: right;}
 
 
@@ -15,3 +15,4 @@ td{height: 60px;
 		.q1{height: 50px;width: 560px; }
 		#a1{background:antiquewhite}
 		.w2{background:antiquewhite;border: antiquewhite;}
+
