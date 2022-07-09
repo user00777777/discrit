@@ -1,4 +1,12 @@
 .wrapper{background-color: bisque;
-grid-area: nav;
-
+grid-area: nav;}
+.link{color: rgb(5, 51, 9);font-size: 20px ;font-weight: 500;
+animation-name: telf;animation-timing-function: ease-in;animation-iteration-count: infinite;animation-duration: 4s;}
+.link:hover{color: rgb(255, 0, 25);}
+@keyframes telf{
+0%{font-weight: 200;}
+25%{font-weight: 400; color: cornflowerblue;}
+50%{  font-weight: 500;color: rgb(255, 0, 157);}
+100%{font-weight: 600;color: brown;text-transform:uppercase;}
 }
+
