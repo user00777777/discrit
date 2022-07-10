@@ -1,9 +1,8 @@
 import "./Post.css";
-let Post = () => {
+let Post = (props) => {
   return (
     <div className="wrapper">
       <b>
-        {" "}
         <th> монорельс№51788</th>
         <th>монорельс№51837</th>
         <th>монорельс№51838</th>
@@ -38,7 +37,7 @@ let Post = () => {
         <td>тельфер№51792</td>
       </tr>
       <tr>
-        <td colspan="3" class="w4">
+        <td colspan="3" className="w4">
           телега№
         </td>
         {/* <td></td>
