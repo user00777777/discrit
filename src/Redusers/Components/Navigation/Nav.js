@@ -3,12 +3,15 @@ import s from "./Nav.module.css";
 const Nav = () => {
   return (
     <div className={s.wrapper}>
-      <p>
-        {" "}
-        <Link to="/Content">
-          <i className={s.link}> Тельфера</i>
+      {" "}
+      {/* <Link to="/Content">
+        <i className={s.link}> Тельфера</i>
+      </Link> */}
+      <div>
+        <Link to="/OnDutyNow">
+          <i className={s.link}> дежурные</i>
         </Link>
-      </p>
+      </div>
     </div>
   );
 };
