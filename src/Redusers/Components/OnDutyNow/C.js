@@ -1,14 +1,17 @@
 import s from "./D/c.module.css";
 const C = (props) => {
   return (
-    <div className={s.wrapper}>
-      <h3> Сейчас на смене</h3>
-      <h4>
-        <span>Сантехник</span> {props.h}{" "}
-      </h4>
-      <h4>
-        <span>Електрик</span> {props.hh}{" "}
-      </h4>
+    <div>
+      <h4 className={s.shift}> Сейчас на смене</h4>
+      <div className={s.wrapper}>
+        {" "}
+        <h4>
+          Сантехник: <big className={s.plumb}>{props.h}</big>
+        </h4>
+        <h4>
+          Електрик: <big className={s.elec}>{props.hh} </big>
+        </h4>
+      </div>
     </div>
   );
 };

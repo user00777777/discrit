@@ -1,1 +1,30 @@
-.wrapper{background-color: aquamarine; display: flex;justify-content: space-around;border-radius: 2px ;border: solid red;}
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Amatic+SC&family=Lavishly+Yours&family=Pacifico&family=Shadows+Into+Light&display=swap');
+.wrapper{height: 150px;width: 200px;
+    background-color: rgb(202, 213, 203); display: grid;grid-column:inherit;   border-radius: 12px ;border: solid red 2px;font-size: 14px;}
+    .elec{color: red;font-family: Arial, Helvetica, sans-serif; }
+    .plumb{font-family: 'Gill Sans', 'Gill Sans MT', ;color:rgb(74, 27, 3);font-weight: 700;}
+    .shift{animation-name: shift;animation-timing-function: ease-in;animation-duration: 111s;animation-direction: alternate;animation-iteration-count: infinite;transform: scale(1,1);
+margin-left: 1%;position: relative;
+    
+    
+    }
+    
+    @keyframes shift{
+
+        0%{color: brown;
+
+        }
+        25%{transform: scale(1,2);
+            color: burlywood;margin-left: 2%;
+        }
+        50%{
+            color: tomato;
+        }
+        75%{
+            color: slateblue;
+        }
+
+
+
+
+    }
