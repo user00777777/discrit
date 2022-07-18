@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Amatic+SC&family=Lavishly+Yours&family=Pacifico&family=Shadows+Into+Light&display=swap');
 .wrapper{height: 150px;width: 200px;
     background-color: rgb(202, 213, 203); display: grid;grid-column:inherit;   border-radius: 12px ;border: solid red 2px;font-size: 14px;}
@@ -28,3 +29,4 @@ margin-left: 1%;position: relative;
 
 
     }
+
